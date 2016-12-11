@@ -1,0 +1,21 @@
+{
+  "name": "twilio_poc",
+  "version": "1.0.0",
+  "description": "Testing Twilio Service",
+  "main": "src/server/app.js",
+  "scripts": {
+    "start": "node src/server/app.js"
+  },
+  "keywords": [
+    "twilio"
+  ],
+  "author": "a.r.torralba.iii@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "twilio": "^2.11.1"
+  }
+}
